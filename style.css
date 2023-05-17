@@ -167,7 +167,7 @@ h4{
     padding-left: 25px;
     padding-right: 25px;
 }
-
+/*--------------------------offer--------------------------*/
 .offer {
     background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
@@ -181,4 +181,27 @@ h4{
 
 small {
     color: #555;
+}
+
+.reviews {
+    width: 50%;
+}
+
+/*----------------------------------------------------------------*/
+
+.testimonial{
+    padding-top: 100px;
+
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.testimonial .col-3 img{
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 50%;
 }
