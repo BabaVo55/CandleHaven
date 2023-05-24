@@ -15,7 +15,9 @@ body{
     align-items: center;
     padding: 20px;
 }
-
+.row .col-3{
+    transition: transform 0.5s;
+}
 nav {
     flex: 1;
     text-align: right;
@@ -191,17 +193,67 @@ small {
 
 .testimonial{
     padding-top: 100px;
+    
 
 }
 
+.col-3:hover{
+    transform: translateY(-10px);
+
+}
 .testimonial .col-3{
     text-align: center;
     padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    
 }
 
 .testimonial .col-3 img{
     width: 50%;
-    height: 50%;
     margin-top: 20px;
     border-radius: 50%;
+}
+
+.col-3 img[src="/Product photos/review image 1.jpg"]{
+    height: 152px;
+    width: 152px;
+}
+
+.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px;
+    color: #777;
+}
+
+.testimonial .col-3 h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.brands{
+    margin: 100px auto;
+}
+
+.col-5 img{
+    max-width: 100px;
+    max-width: 100px;
+    cursor: pointer;
+    filter: grayscale(100%)
+}
+
+.col-5 img:hover{
+    filter: grayscale(0)
+}
+/*--------footer---------*/
+.footer{
+    background-color: #0000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
 }
